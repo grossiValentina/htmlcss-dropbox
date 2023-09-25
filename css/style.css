@@ -16,11 +16,13 @@ header{
     
     border: 1px solid black;
 }
+
+/* MAIN */
 .conteiner-1{
     width: 80%;
     margin: 0 auto;
+    margin-top: 1rem;
     
-    height: 40rem;
     border: 1px solid black;
 
 }
@@ -38,20 +40,34 @@ header{
 
 }
 .col-large{
-    background-color: darkorange;
+    background-color: orange;
     width: 70%;
-    
 
 }
-/* MAIN */
+    
 .conteiner-2{
     width: 60%;
     margin: 0 auto;
+    margin-top: 1rem;
 
     border: 1px solid black;
 
 }
 .row-sez1{
     display: flex;
+    padding: .5rem;
+
+}
+.col-sez1{
+    margin: .5rem;
+
+    background-color: pink;
+    
+    
+}
+.col-all{
+    margin: 0.5rem;
+    
+    background-color: pink;
 }
     
