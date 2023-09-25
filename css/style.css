@@ -18,7 +18,7 @@ header{
     background-color: darkgray;
 }
 .conteiner1{
-    width: 80%;
+    width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     
@@ -26,4 +26,20 @@ header{
     background-color: lightpink;
 
 }
+.hero-section{
+    padding: 2rem 2rem;
+}
+.row{
+    display: flex;
+}
 
+.col-small{
+    background-color: chartreuse;
+    width: 30%;
+
+}
+.col-large{
+    background-color: darkorange;
+    width: 70%;
+
+}
