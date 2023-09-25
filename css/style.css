@@ -72,7 +72,7 @@ header{
     background-color: pink;
 }
     
-/* SEZIONE 2 */
+/* SECTION 2 */
 .row-sez2{
     display: flex;
     margin-top: 5rem;
@@ -88,16 +88,53 @@ header{
     margin: .5rem;
 }
     
-/* SEZIONE 3 */
+/* SECTION 3 */
 .row-sez3{
     display: flex;
     margin-top: 2rem;
     
 }
 
-/* SEZIONE 4 */
+/* SECTION 4 */
 .row-sez4{
     margin-top: 5rem;
 }
 
-/* SEZIONE 5 */
+/* SECTION 5 */
+
+.conteiner-3{
+    width: 100%;
+    margin-top: 3rem;
+
+    border: 1px solid black;
+
+}
+.row-sez5{
+    display: flex;
+    margin: 0;
+
+}
+.col-sez5{
+    background-color: burlywood;
+    margin: .5rem;
+}
+
+/* SECTION 6 */
+
+
+
+
+/* SECTION 7 */
+.title-small7{
+    margin-top: 2rem;
+}
+.row-sez7{
+    flex-wrap: wrap;
+    
+}
+.col-sez2{
+    margin-top: .5rem;
+    padding: 2rem 2rem;
+    background-color: fuchsia;
+    
+}
