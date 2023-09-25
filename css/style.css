@@ -76,7 +76,6 @@ header{
 .row-sez2{
     display: flex;
     margin-top: 5rem;
-    padding: .5rem;
 }
 .col-sez2-large{
     width: 70%;
@@ -90,3 +89,15 @@ header{
 }
     
 /* SEZIONE 3 */
+.row-sez3{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+/* SEZIONE 4 */
+.row-sez4{
+    margin-top: 5rem;
+}
+
+/* SEZIONE 5 */
