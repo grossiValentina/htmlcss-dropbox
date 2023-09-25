@@ -26,6 +26,7 @@ header{
     border: 1px solid black;
 
 }
+/* HERO */
 .hero-section{
     padding: .5rem;
 }
@@ -44,7 +45,8 @@ header{
     width: 70%;
 
 }
-    
+
+ /* SECTION 1 */
 .conteiner-2{
     width: 60%;
     margin: 0 auto;
@@ -55,7 +57,6 @@ header{
 }
 .row-sez1{
     display: flex;
-    padding: .5rem;
 
 }
 .col-sez1{
@@ -71,3 +72,21 @@ header{
     background-color: pink;
 }
     
+/* SEZIONE 2 */
+.row-sez2{
+    display: flex;
+    margin-top: 5rem;
+    padding: .5rem;
+}
+.col-sez2-large{
+    width: 70%;
+    background-color: aqua;
+    margin: .5rem;
+}
+.col-sez2-small{
+    width: 30%;
+    background-color: aqua;
+    margin: .5rem;
+}
+    
+/* SEZIONE 3 */
