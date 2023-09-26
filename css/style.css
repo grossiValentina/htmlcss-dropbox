@@ -66,26 +66,26 @@ header{
 .col-small{
     background-color: chartreuse;
     width: 30%;
+    position: relative;
 }
 
 .link-button{
-    background-color: rgb(45, 45, 229);
-    padding: .7rem;
+    background-color: blue;
+    pad: 0.7rem;
     
 }
 .link-button a{
     color: white;
-    text-decoration: none;
+    
+}
+.arrow{
+    font-size: 3rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
 }
 
-.link-button a{
-    color: white;
-    text-decoration: none;
-}
-.link-button a{
-    color: white;
-    text-decoration: none;
-}
 li a{
     text-decoration: none;
 }
@@ -99,26 +99,23 @@ li a{
 .conteiner-2{
     width: 60%;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 6rem;
 
     border: 1px solid black;
 
 }
+
 .row-sez1{
     display: flex;
-
 }
 .col-sez1{
     margin: .5rem;
-
-    background-color: pink;
-    
+    border: 2px solid lightgray;
     
 }
-.col-all{
+.col-all-enterprise{
     margin: 0.5rem;
-    
-    background-color: pink;
+    border: 2px solid lightgrey;
 }
     
 /* SECTION 2 */
