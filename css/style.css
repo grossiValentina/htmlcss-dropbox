@@ -101,6 +101,7 @@ header{
 
 li a{
     text-decoration: none;
+    font-size: .8rem;
 }
 .col-large{
     width: 70%;
@@ -130,8 +131,10 @@ li a{
     margin: .5rem;
     padding: 1rem;
     border: 2px solid lightgray;
-    
+    text-align: center;
 }
+
+
 .reference {
     margin-top: .5rem;
     
@@ -147,32 +150,67 @@ li a{
     display: flex;
     margin-top: 5rem;
 }
+.title-h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.par{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+.button-border a{
+    font-size: .8rem;
+    padding: .5rem .5rem;
+    color: grey;
+    border: 2px solid grey;
+}
+
 .col-sez2-large{
     width: 70%;
-    background-color: aqua;
 }
 .col-sez2-small{
     width: 30%;
-    background-color: aqua;
     margin: .5rem;
+    padding-top: 2rem;
+    padding: .5rem;
 }
     
 /* SECTION 3 */
+.no-border{
+    border: 0;
+}
+.title-small3{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
 .row-sez3{
     display: flex;
-    margin-top: 2rem;
-    
+}
+.title-sez3{
+    font-size: 1rem;
+    text-align: left;
+}
+.par-sez3{
+    font-size: .8rem;
+    text-align: left;
+    margin-top: 1rem;
 }
 
+
 /* SECTION 4 */
-.row-sez4{
+.title-sez4{
+    font-size: 1.5rem;
     margin-top: 5rem;
+}
+.link-clients{
+    margin-top: 2rem;
 }
 
 /* SECTION 5 */
 
 .conteiner-3{
     width: 100%;
+
 
     border: 1px solid black;
 
@@ -185,6 +223,7 @@ li a{
 .col-sez5{
     background-color: burlywood;
     margin: .5rem;
+    width: calc(100% / 3);
 }
 
 /* SECTION 6 */
@@ -209,12 +248,17 @@ li a{
 
 /* FOOTER */
 /* FOOTER TOP */
+.conteiner-footer{
+    width: 100%;
+}
 .row-footer{
     display: flex;
+    padding: 5% 10% 10%;
 }
 .col-footer{
     padding: .5rem;
     border: 1px solid black;
+    flex-grow: 2;
     
     background-color: cornflowerblue;
 }
