@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
 img{
     max-width: 100%;
 }
@@ -18,12 +19,16 @@ ul{
 /* HEADER */
 header{
     width: 100%;
-    height: 5rem;
+    height:  3rem;
+
     
     border: 1px solid black;
 }
 .navigation{
     display: flex;
+}
+.logo{
+    margin-top: .5rem;
 }
 .links-navigation{
     display: flex;
@@ -32,23 +37,25 @@ header{
 .links-left{
     display: flex;
     gap: 2rem;
+    margin-top: 1rem;
     
     
 }
 .links-right{
     display: flex;
     gap: 2rem;
-    justify-content: end;
+    margin-top: 1rem;
 }
 
 
 /* MAIN */
 .conteiner-1{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 1rem;
+    padding: 5rem 10rem 0;
+    font-size: .8rem;
+    background-color: rgb(113, 157, 201);
     
-    border: 1px solid black;
 
 }
 /* HERO */
@@ -64,14 +71,20 @@ header{
 }
 
 .col-small{
-    background-color: chartreuse;
     width: 30%;
+    margin-top: 3rem;
     position: relative;
+}
+.col-small p{
+    margin-bottom: 1.5rem;
 }
 
 .link-button{
     background-color: blue;
-    pad: 0.7rem;
+    padding: 0.7rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
     
 }
 .link-button a{
@@ -90,9 +103,11 @@ li a{
     text-decoration: none;
 }
 .col-large{
-    background-color: orange;
     width: 70%;
-
+    margin-top: 3rem;
+}
+.col-large img{
+    fon
 }
 
  /* SECTION 1 */
@@ -101,18 +116,27 @@ li a{
     margin: 0 auto;
     margin-top: 6rem;
 
+
     border: 1px solid black;
 
 }
 
 .row-sez1{
     display: flex;
+
 }
 .col-sez1{
+    width: 30%;
     margin: .5rem;
+    padding: 1rem;
     border: 2px solid lightgray;
     
 }
+.reference {
+    margin-top: .5rem;
+    
+}
+
 .col-all-enterprise{
     margin: 0.5rem;
     border: 2px solid lightgrey;
@@ -126,7 +150,6 @@ li a{
 .col-sez2-large{
     width: 70%;
     background-color: aqua;
-    margin: .5rem;
 }
 .col-sez2-small{
     width: 30%;
