@@ -131,7 +131,6 @@ li a{
     margin: .5rem;
     padding: 1rem;
     border: 2px solid lightgray;
-    text-align: center;
 }
 
 
@@ -250,17 +249,40 @@ li a{
 /* FOOTER TOP */
 .conteiner-footer{
     width: 100%;
+    margin: 0 auto;
+    padding: 5rem 10rem 0;
+    font-size: .8rem;
+    background-color: black
+    
 }
 .row-footer{
     display: flex;
-    padding: 5% 10% 10%;
+    padding: .5rem;
+    background-color: black;
 }
 .col-footer{
     padding: .5rem;
     border: 1px solid black;
     flex-grow: 2;
     
-    background-color: cornflowerblue;
+}
+.title-footer{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.list-footer li{
+    font-size: .8rem;
+    color: white;
+    margin-top: .7rem;
 }
 
-/* FOOTER BOTTOM */
+.hr-footer{
+    color: white;
+    margin-top: 3rem;
+}
+.language{
+    color: white;
+    font-size: .8rem;
+    margin-top: 1.5rem;
+}
