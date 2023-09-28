@@ -182,11 +182,22 @@ img{
 .link-button a{
     font-size: .8rem;
 }
+.acquista{
+    font-size: .8rem;
+    margin-bottom: 1rem;
 
+}
 h6{
     font-size: .8rem;
 }
+.list-services{
+    font-size: .8rem
+}
+.list-services i{
+    color: blue;
+    margin-top: 1rem;
 
+}
 
 
 
